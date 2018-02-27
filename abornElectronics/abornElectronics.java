@@ -31,7 +31,6 @@ public class abornElectronics extends JFrame implements ActionListener {
 		labels.setLayout(new GridLayout(7,1));
 		texts.setLayout(new GridLayout(7,1));
 		
-		
 		passLP = new JPanel();
 		passTP = new JPanel();
 		p0 = new JPanel();
@@ -830,11 +829,12 @@ public class abornElectronics extends JFrame implements ActionListener {
 				e1.printStackTrace();
 			}
 			serialText.setText("");
+			procedureText.setText("");
 			passText.setText("");
 			//seqText.setText("");
-			procedureText.setText("");
 			//nameText.setText("");
 			reTestText.setText("");
+			reworkT.setText("");
 			rt1.setText("");
 			rt2.setText("");
 			rt3.setText("");
